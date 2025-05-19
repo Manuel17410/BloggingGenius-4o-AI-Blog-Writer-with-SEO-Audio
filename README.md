@@ -2,6 +2,8 @@
 
 Web application that leverages the GPT-4o model to create personalized blog posts based on user-defined topics. Users can specify the word count, preferred language, and SEO keywords to optimize visibility. The app generates a structured, well-written blog, viewable directly on the site. To enhance accessibility and interactivity, the blog can also be converted into speech using integrated text-to-audio features. An optional summary and downloadable version are provided, making content creation seamless and efficient.
 
+https://blogginggenius-4o-ai-blog-writer-with-seo-audio-hdvyg8b8wbsnb3.streamlit.app/
+
 ## Installation and Use
 
 1- Download the repo
