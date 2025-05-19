@@ -1,6 +1,6 @@
-## LlamaBlogPro AI Blog Creator with SEO Word Control
+## BloggingGenius 4o – AI Blog Writer with SEO & Audio
 
-I developed a web application that leverages a Llama model to generate blogs tailored to user input. The app allows users to specify the number of words they want in the blog, choose the language for the content, and input SEO keywords to optimize the blog for search engines. Once the user provides the desired parameters, the app generates a blog post that can be read directly on the website. Additionally, users have the option to listen to the blog via an integrated audio feature, making it more interactive and accessible. This project combines AI-driven content generation with user customization and accessibility features for an enhanced blogging experience.
+Web application that leverages the GPT-4o model to create personalized blog posts based on user-defined topics. Users can specify the word count, preferred language, and SEO keywords to optimize visibility. The app generates a structured, well-written blog, viewable directly on the site. To enhance accessibility and interactivity, the blog can also be converted into speech using integrated text-to-audio features. An optional summary and downloadable version are provided, making content creation seamless and efficient.
 
 ## Installation and Use
 
