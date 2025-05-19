@@ -2,9 +2,7 @@ import streamlit as st
 from gtts import gTTS
 import tempfile
 import time
-import os
-from dotenv import load_dotenv
-import openai  # Correct usage for sk-... keys
+import openai
 
 class BloggingGeniusApp:
     def __init__(self):
@@ -14,11 +12,13 @@ class BloggingGeniusApp:
             layout='centered',
             initial_sidebar_state='collapsed'
         )
-        load_dotenv()
-        api_key = os.getenv("OPENAI_API_KEY")
-        if not api_key:
-            st.error("❌ OPENAI_API_KEY not found in environment variables. Please add it to your .env file.")
+        
+        try:
+            api_key = st.secrets["OPENAI_API_KEY"]
+        except KeyError:
+            st.error("❌ OPENAI_API_KEY not found in Streamlit secrets. Please add it there.")
             st.stop()
+        
         openai.api_key = api_key  # Set global OpenAI API key
 
         self.language_map = {
@@ -200,6 +200,7 @@ Write a well-structured blog about "{input_text}" in {language}.
 if __name__ == "__main__":
     app = BloggingGeniusApp()
     app.run()
+
 
 
 
