@@ -6,3 +6,4 @@ python-box
 streamlit
 gtts
 gdown
+python-dotenv
