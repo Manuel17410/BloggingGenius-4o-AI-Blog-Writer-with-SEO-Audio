@@ -1,9 +1,4 @@
-sentence-transformers
-uvicorn
-ctransformers
-langchain
-python-box
 streamlit
 gtts
-gdown
 python-dotenv
+openai
